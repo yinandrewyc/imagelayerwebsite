@@ -10,7 +10,7 @@ const config = {
     logoLink: 'https://www.tezign.com/',
     title:
       "Image Layer Project",
-    githubUrl: 'https://github.com/yinandrewyc/imagelayer',
+    githubUrl: 'https://github.com/yinandrewyc/imagelayerwebsite',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -55,7 +55,7 @@ const config = {
     title: 'Image Layer Project GitBook',
     description: 'Machine Learning Image Generation Project | Summer 2020 ',
     ogImage: null,
-    docsLocation: 'https://github.com/yinandrewyc/imagelayer',
+    docsLocation: 'https://github.com/yinandrewyc/imagelayerwebsite',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

@@ -17,9 +17,9 @@ algorithms were also used to compare results and accuracy.
 
 1. [Linear Regression](Regression/LinearRegression)
 2. [Bayesian Ridge](Regression/bayesian)
-3. Huber Regressor
-4. RANSCAR Regressors
-5. TheilSen Regressor
+3. [Huber Regressor](Regression/huber)
+4. [RANSACR Regressors](Regression/huber)
+5. [TheilSen Regressor](Regression/huber)
 6. Elastic Net
 7. ARDRegression
 8. KernelRidge
