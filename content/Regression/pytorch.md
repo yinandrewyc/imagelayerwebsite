@@ -3,7 +3,7 @@ title: "PyTorch Linear Regression"
 metaTitle: "PyTorch"
 metaDescription: "PytoLinear Regression Analysis and results"
 ---
-Normalized data from heatmap development used to train a linear regression model to generate a layer compilation image
+Pytorch neural network data analysis process:
 
 # Linear Regression Model with Two Regression steps
 
