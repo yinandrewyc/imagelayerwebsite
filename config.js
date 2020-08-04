@@ -1,27 +1,27 @@
 const config = {
   gatsby: {
     pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    siteUrl: 'https://imagelayerproject.io',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
+    logo: 'https://kellercenter.princeton.edu/sites/default/files/styles/free_style/public/images/Tezign%20Logo.png?itok=OsubPShi',
+    logoLink: 'https://www.tezign.com/',
     title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+      "Image Layer Project",
+    githubUrl: 'https://github.com/yinandrewyc/imagelayer',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
 		      </div>
 		    </a>
 		  </li>
 			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
+		    <a href="" target="_blank" rel="noopener">
 		      <div class="discordBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
 		      </div>
@@ -39,22 +39,23 @@ const config = {
   sidebar: {
     forcedNavOrder: [
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      '/heatmap',
+      '/regression',
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/Linear Regression', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: 'Resume', link: 'https://google.com' }],
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+      "<a href='https://facebook.com' target='_blank'>bored? </a><div class='greenCircle'></div><a href='https://reddit.com' target='_blank'>really bored?</a>",
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Image Layer Project GitBook',
+    description: 'Machine Learning Image Generation Project | Summer 2020 ',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/yinandrewyc/imagelayer',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

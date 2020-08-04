@@ -34,7 +34,7 @@ export const baseStyles = injectGlobal`
 
   a {
     transition: color 0.15s;
-    /* color: #663399; */
+    // color: #c2c2c2;
   }
 
   body {
@@ -134,7 +134,7 @@ export const baseStyles = injectGlobal`
 
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #001933;
+    background-color: #a8dadc;
   }
 
   .headerWrapper {
@@ -222,16 +222,16 @@ export const baseStyles = injectGlobal`
     font-size: 14px;
   }
   .headerTitle {
-    height: auto;
-    font-size: 16px;
+    height: 50px;
+    font-size: 26px;
     line-height: 1.5;
-    font-weight: 300;
-    color: #fff !important;
+    font-weight: 450;
+    color: #1d3557 !important;
     margin-top: 16px;
     text-transform: uppercase;
   }
   .headerTitle a {
-    color: #fff;
+    color: #a8dadc;
   }
 
   .headerTitle a:hover {
@@ -257,7 +257,7 @@ export const baseStyles = injectGlobal`
     padding: 0 !important;
   }
   .navBarDefault {
-    background-color: #001934;
+    background-color: #f1faee;
     border-radius: 0;
     border-top: 0;
     margin-bottom: 0;
@@ -320,7 +320,7 @@ export const baseStyles = injectGlobal`
     border: 0 !important;
     background-color: rgb(245, 247, 249); /* !important; */
   }
-  
+
   blockquote {
     color: rgb(116, 129, 141);
     margin: 0px 0px 24px;
@@ -369,7 +369,7 @@ export const baseStyles = injectGlobal`
   /* Header section ends here */
   .sidebarTitle {
     /* box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16); */
-    background-color: #f8f8f8;
+    background-color: #f1faee;
     padding: 18px 16px;
     font-family: 'Poppins';
     font-size: 18px;
@@ -384,7 +384,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sidebarTitle a {
-    color: #001934;
+    color: #1d3557;
   }
 
   .greenCircle {
@@ -450,8 +450,8 @@ export const baseStyles = injectGlobal`
   }
 
   .hideFrontLine .active > a {
-    background-color: #1ed3c6;
-    color: #fff !important;
+    background-color: #457b9d;
+    color: #f1faee !important;
   }
   .firstLevel ul li .collapser svg path {
     fill: #fff !important;
@@ -470,7 +470,7 @@ export const baseStyles = injectGlobal`
   }
 
   .sideBarUL .item > a {
-    color: #1ED3C6;
+    color: #f1faee;
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -481,12 +481,12 @@ export const baseStyles = injectGlobal`
   }
 
   .showFrontLine .item > a:hover {
-    background-color: #001933;
+    background-color: #a8dadc;
   }
 
   .showFrontLine .active > a {
     /* color: #fff; */
-    background-color: #001933;
+    background-color: #a8dadc;
   }
 
   .sideBarUL .item .item {

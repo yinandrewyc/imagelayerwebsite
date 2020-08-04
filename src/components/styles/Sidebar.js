@@ -15,7 +15,7 @@ export const Sidebar = styled('aside')`
   background: ${props => props.theme.colors.background};
 
   .rightSideTitle {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 1;
     font-weight: 700;
     text-transform: uppercase;
@@ -72,7 +72,7 @@ export const ListItem = styled(({ className, active, level, ...props }) => {
     position: relative;
 
     &:hover {
-      color: #1ed3c6 !important;
+      color: #457b9d !important;
     }
 
     ${props =>
