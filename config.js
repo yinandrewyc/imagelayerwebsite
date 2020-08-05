@@ -10,7 +10,7 @@ const config = {
     logoLink: 'https://www.tezign.com/',
     title:
       "Image Layer Project",
-    githubUrl: 'https://github.com/yinandrewyc/imagelayerwebsite',
+    githubUrl: 'https://github.com/yinandrewyc/imagelayerwebsite/',
     helpUrl: '',
     tweetText: '',
     social: `<li>
@@ -43,7 +43,11 @@ const config = {
       '/regression',
     ],
     collapsedNav: [
-      '/Linear Regression', // add trailing slash if enabled above
+      '/LinearRegression',
+      '/bayesian',
+      '/huber',
+      '/elasticnet',
+      '/xgboost', // add trailing slash if enabled above
     ],
     links: [{ text: 'Resume', link: 'https://google.com' }],
     frontline: false,
@@ -55,7 +59,7 @@ const config = {
     title: 'Image Layer Project GitBook',
     description: 'Machine Learning Image Generation Project | Summer 2020 ',
     ogImage: null,
-    docsLocation: 'https://github.com/yinandrewyc/imagelayerwebsite',
+    docsLocation: 'https://github.com/yinandrewyc/imagelayerwebsite/tree/master/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {

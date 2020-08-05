@@ -15,16 +15,16 @@ algorithms were also used to compare results and accuracy.
 
 # Types of Regression Algorithms used    
 
-1. [Linear Regression](Regression/LinearRegression)
-2. [Bayesian Ridge](Regression/bayesian)
-3. [Huber Regressor](Regression/huber)
-4. [RANSACR Regressors](Regression/huber)
-5. [TheilSen Regressor](Regression/huber)
-6. Elastic Net
-7. ARDRegression
-8. KernelRidge
-9. DecisionTreeRegressor
-10. KNeighbors Regressor
-11. Random Forest Regressor
-12. [XGBoost](Regression/xgboost)
-13. PyTorch
+1. [Linear Regression](Regression/aLinearRegression)
+2. [Bayesian Ridge](Regression/bbayesian)
+3. [Huber Regressor](Regression/chuber)
+4. [RANSACR Regressors](Regression/chuber)
+5. [TheilSen Regressor](Regression/chuber)
+6. [Elastic Net](Regression/delasticnet)
+7. [ARDRegression](Regression/eArdregression)
+8. [KernelRidge](Regression/fkernelridge)
+9. [DecisionTreeRegressor](Regression/gtrees)
+10. [KNeighbors Regressor](Regression/gtrees)
+11. [Random Forest Regressor](Regression/gtrees)
+12. [PyTorch](Regression/hpytorch)
+13. [XGBoost](Regression/ixgboost)

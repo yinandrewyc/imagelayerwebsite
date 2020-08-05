@@ -23,15 +23,13 @@ xin = output[z]
 xin = np.array(xin)
 xin = xin.reshape(-1, 6)
 
-reg = HuberRegressor(epsilon=1.9).fit(x,y) 
-reg= RANSACRegressor(LinearRegression(), residual_threshold=10, random_state=0)
-reg = TheilSenRegressor(random_state=0).fit(x, y)
+huber = HuberRegressor(epsilon=1.9).fit(x,y)
+ransacr = RANSACRegressor(LinearRegression(), residual_threshold=10, random_state=0)
+theilsen = TheilSenRegressor(random_state=0).fit(x, y)
 
-y_predtrain = regressor.predict(x)
-mse = mean_squared_error(y, y_predtrain)
-rmse = np.sqrt(mse)
-
-y_pred = regressor.predict(xin)
+y_huber = huber.predict(xin)
+y_ransacr = ransacr.predict(xin)
+y_theilsen = theilsen.predict(xin)
 ```
 
 # Image Display

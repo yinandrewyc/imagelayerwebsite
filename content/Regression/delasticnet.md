@@ -37,4 +37,4 @@ y_pred = elastic.predict(xin)
 # Image Display
 
 
-![](img2/elasticnetcv.png)
+![](img2/1elasticnetcv.png)

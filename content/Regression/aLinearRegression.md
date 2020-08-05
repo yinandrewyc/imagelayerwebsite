@@ -5,9 +5,9 @@ metaDescription: "Linear Regression Analysis and results"
 ---
 Normalized data from heatmap development used to train a linear regression model to generate a layer compilation image
 
-**Linear Regression Model with Two Regression steps:**
+# Linear Regression Model with Two Regression steps
 
-# Step 1
+## Step 1
 **Inputs from User:** Width and Height of every desired layer  
 **Output:** Xmin, Xmax, Ymin, Ymax
 
@@ -68,7 +68,7 @@ def reg():
 reg()
 ```
 
-# Step 2
+## Step 2
 
 **Inputs (Generated from previous step):** Width, Height, Xmin, Xmax, Ymin, Ymax  
 **Output:** X-center, Y-center (Normalized values)  
