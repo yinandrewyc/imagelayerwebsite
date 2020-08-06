@@ -58,6 +58,4 @@ reg()
 
 # Image Display
 
-## Linear Regression Image
-
 ![pytorch](img2/pytorch.png)

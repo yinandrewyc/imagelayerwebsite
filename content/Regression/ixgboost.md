@@ -59,8 +59,4 @@ y_new = model.predict(xz)
 
 # Image Display
 
-Image coordinates are resized and used to generate a predicted image display of different layers. A sample input of different layer images were used to generate images based upon inputted user coordinates
-
-## XGBoost Image
-
 ![regression](img2/xgboost.png)

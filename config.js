@@ -53,7 +53,7 @@ const config = {
     frontline: false,
     ignoreIndex: true,
     title:
-      "<a href='https://facebook.com' target='_blank'>bored? </a><div class='greenCircle'></div><a href='https://reddit.com' target='_blank'>really bored?</a>",
+      "<a href='https://facebook.com' target='_blank'>More Info </a><div class='greenCircle'></div><a href='https://reddit.com' target='_blank'>Info?</a>",
   },
   siteMetadata: {
     title: 'Image Layer Project GitBook',

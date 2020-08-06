@@ -36,8 +36,4 @@ y_pred = regressor.predict(xin)
 
 # Image Display
 
-Image coordinates are resized and used to generate a predicted image display of different layers. A sample input of different layer images were used to generate images based upon inputted user coordinates
-
-## BayesianRidge Image
-
 ![regression](img2/baysian2.png)
