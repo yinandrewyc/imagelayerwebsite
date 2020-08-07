@@ -13,20 +13,20 @@ const config = {
     githubUrl: 'https://github.com/yinandrewyc/imagelayerwebsite/',
     helpUrl: '',
     tweetText: '',
-    social: `<li>
-		    <a href="" target="_blank" rel="noopener">
-		      <div class="twitterBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
-		      </div>
-		    </a>
-		  </li>`,
+    social: '',//`<li>
+		//     <a href="" target="_blank" rel="noopener">
+		//       <div class="twitterBtn">
+		//         <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Discord'}/>
+		//       </div>
+		//     </a>
+		//   </li>
+		// 	<li>
+		//     <a href="" target="_blank" rel="noopener">
+		//       <div class="discordBtn">
+		//         <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
+		//       </div>
+		//     </a>
+		//   </li>`,
     links: [{ text: '', link: '' }],
     search: {
       enabled: false,
@@ -49,11 +49,11 @@ const config = {
       '/elasticnet',
       '/xgboost', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Resume', link: 'https://google.com' }],
+    links: [{ text: 'LinkedIn', link: 'https://www.linkedin.com/in/andrew-yin-2k20' }],
     frontline: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://facebook.com' target='_blank'>More Info </a><div class='greenCircle'></div><a href='https://reddit.com' target='_blank'>Info?</a>",
+    title: "",
+      // "<a href='https://facebook.com' target='_blank'>More Info </a><div class='greenCircle'></div><a href='https://reddit.com' target='_blank'>Info?</a>",
   },
   siteMetadata: {
     title: 'Image Layer Project GitBook',

@@ -11,48 +11,74 @@ metaDescription: "PytoLinear Regression Analysis and results"
 
 ![](img2/process.png)
 
-
+**Algorithm with epoch of 1000:** <br/>
+**Loss** determines the accuracy of the neural network prediction. It is reduced over epochs as algorithm adjusts its weights over time. The amount of epochs can determine the accuracy of the model.
 
 ```python
+# input values
+input = pd.read_csv("output.csv", header = None).values
+data = ['frame1-layer10.csv','frame1-layer20 .csv','frame1-layer30.csv','frame1-layer40.csv','frame1-layer50.csv','frame1-layer60.csv','frame1-layer70.csv','frame1-layer80.csv','frame1-layer90.csv','frame1-layer100.csv','frame1-layer110.csv','frame1-layer120.csv','frame1-layer130.csv','frame1-layer140.csv']
 
-x2 = []
-z = 0
+# PyTorch Linear Regression algorithm
+class linear_regression(nn.Module):
+
+    # Constructor
+    def __init__(self, input_size, output_size):
+        super(linear_regression, self).__init__()
+        self.linear = nn.Linear(input_size, output_size)
+
+    # Prediction
+    def forward(self, x):
+        yhat = self.linear(x)
+        return yhat
+
+
+model = linear_regression(6,1)
+optimizer = torch.optim.Adam(model.parameters(),lr=0.001)
+criterion = nn.MSELoss()
+
+LS = []
+final = []
+epochs = 1000
+
+# Run through 1000 epochs of model
+for epoch in range(epochs):
+    # make a prediction
+    yhat = model(xin)
+    # calculate the loss
+    loss = criterion(yhat, ydata)
+    # store loss/cost
+    if (epoch == 999):
+        LS.append(loss.item())
+        final.append(yhat)
+
+    optimizer.zero_grad()
+    # Backward pass: compute gradient of the loss with respect to all the learnable parameters
+    loss.backward()
+    # the step function on an Optimizer makes an update to its parameters
+    optimizer.step()
+return final, LS
+
 for i in range(0, len(data)):
     datax = data[i]
+    datax = np.array(pd.read_csv(datax))
+    datax = datax.astype(np.float)
 
-    d = pd.read_csv(
-        datax, usecols=['w', 'h'])
-    res = pd.read_csv(
-        datax, usecols=['xmin', 'ymin', 'xmax', 'ymax'])
 
-    x = d
-    y = res
+    # datax = (torch.from_numpy(datax)).float()
+    input = torch.from_numpy(np.array(input)).float()
 
-    x, y = np.array(x), np.array(y)
-    model = LinearRegression().fit(x, y)
+    x = datax[:, 2:6]
+    y = datax[:, 0]
 
-    xz = [x_new[z]]
-    y_new = model.predict(xz)
-    x2.append(y_new)
-    z = z +1
+    xin = input[z]
 
-x2 = np.array(x2)
-x2.shape = 14, 4
-dx = pd.DataFrame(x2)
-dx.to_csv('xnew2.csv', index=False)
+    xf, ls = reg(y,xin)
 
-reg1()
-x_new = pd.read_csv("xnew.csv")
-x_new2 = pd.read_csv("xnew2.csv")
+    error.append(ls)
+    x2.append(xf)
+    z = z + 1
 
-merged = x_new.merge(x_new2, left_index=True,right_index=True)
-merged.to_csv("output.csv",index = False)
-
-output = pd.read_csv("output.csv").values
-output = pd.DataFrame(output, columns = ['width','height','xmin', 'ymin', 'xmax', 'ymax'])
-print(output)
-
-reg()
 ```
 
 
