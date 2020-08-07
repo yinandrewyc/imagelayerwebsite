@@ -12,4 +12,4 @@ This website was created from using a GatsbyJS website framework and written usi
 
 ## 🔗 Live Website
 
-Here's the website [link](https://learn.hasura.io/graphql/react)
+Here's the website [link](https://imagelayerproject.netlify.app/)
