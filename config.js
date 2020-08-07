@@ -43,11 +43,7 @@ const config = {
       '/regression',
     ],
     collapsedNav: [
-      '/LinearRegression',
-      '/bayesian',
-      '/huber',
-      '/elasticnet',
-      '/xgboost', // add trailing slash if enabled above
+      '/regression',// add trailing slash if enabled above
     ],
     links: [{ text: 'LinkedIn', link: 'https://www.linkedin.com/in/andrew-yin-2k20' }],
     frontline: false,
